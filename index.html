@@ -1,99 +1,122 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Latest compiled and minified CSS -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      
+      <link rel="stylesheet" href="style.css">
+
     <title>
 
     </title>
   </head>
   <body>
 
-    <header>
-      <div>
-        <p>logic</p>
-        <div>
-          <img src="logo.png">
-        </div>
-      </div>
-
-      <nav>
-        <ul>
-          <li>о нас</li>
-          <li>контакты</li>
-          <li>подать заявку</li>
+    <header class="header">
+      <div class="container">
+      <nav class="navbar-default navbar-fixed-top">
+        <a class="navbar-brand black special" href="#" ></a>
+          logic
+          <img src="assets/logo.png" id="logo_menu">
+        </a>
+      
+     
+        <ul class="nav navbar-nav">
+          <li><a href="#about" class="black">о нас</a></li>
+          <li><a href="#contacts" class="black">контакты</a></li>
+          <li><a href="#send" class="black">подать заявку</a></li>
         </ul>
       </nav>
+    </div>
     </header>
 
-    <main>
-      <section>
-        <div>
-          <h1>logic</h1>
-          <div>
-            <img src="logo.png">
+    <main id="main">
+      <section id="cover">
+        <div class="container">
+          <div id="logo_cover">
+            <h1 id="logo_name" class="black special">logic</h1>
+            <img src="assets/logo.png" id="logo">
           </div>
         </div>
-        <p>школа программирования</p>
+        <p class="white">школа программирования</p>
       </section>
 
-      <section>
-        <h1>О нас</h1>
-        <p>наша школы предоставляет различные курсы, которые точно смогут вас заинтересовать. Пройдя наши курсы вы точно сможете стать крутым программистом</p>
+      <section id="about">
+        <h1 class="black">О нас</h1>
+        <p class="black p">наша школы предоставляет различные курсы, которые точно смогут вас заинтересовать. Пройдя наши курсы вы точно сможете стать крутым программистом</p>
 
-        <div>
-          <h2><a href="">Python с нуля</a></h2>
-          <h2><a href="">Фронтенд разработка</a></h2>
-          <h2><a href="">Программирование на Unity</a></h2>
+        <div class="container js">
+          <h2><a href="" class="black h2">Python с нуля</a></h2>
+          <h2><a href="" class="black h2">Фронтенд разработка</a></h2>
+          <h2><a href="" class="black h2">Программирование на Unity</a></h2>
         </div>
 
-        <article>
-          <p>Python популярный и простой язык программирования, которому стоит научиться! После прохождения этого курса вы сможете разбираться в данном языке и сможете даже написать собственного чат-бота!</p>
+        <article class="card is-active">
+          <p class="black">Python популярный и простой язык программирования, которому стоит научиться! После прохождения этого курса вы сможете разбираться в данном языке и сможете даже написать собственного чат-бота!</p>
         </article>
 
-        <article>
-          <p>Интересуетесь созданием сайтов? Тогда курс фронтенд разработки для вас. На курсе вы изучите три основных языка программирования для создания сайтов (html, css, java script). После обучения вы с лёгкостью сможете сами создать сайт, который только захотите</p>
+        <article class="card">
+          <p class="black">Интересуетесь созданием сайтов? Тогда курс фронтенд разработки для вас. На курсе вы изучите три основных языка программирования для создания сайтов (html, css, java script). После обучения вы с лёгкостью сможете сами создать сайт, который только захотите</p>
         </article>
 
-        <article>
-          <p>Желаете не только играть, но и создавать игры? Тогда присмотритесь к данному курсу. На нём мы изучим как создавать простые игры на Unity. Узнаем, что нужно для создания игр и какие профессии там задействованы. В конце курса каждый из учеников создаст свою собсвенную игру</p>
+        <article class="card">
+          <p class="black">Желаете не только играть, но и создавать игры? Тогда присмотритесь к данному курсу. На нём мы изучим как создавать простые игры на Unity. Узнаем, что нужно для создания игр и какие профессии там задействованы. В конце курса каждый из учеников создаст свою собсвенную игру</p>
         </article>
 
-        <img src="hands.jpg">
-        <img src="laptop.jpg">
+        <img src="assets/hands.jpg" id="hands">
+        <img src="assets/laptop.jpg" id="laptop">
       </section>
 
-      <section>
-        <h1>контакты</h1>
-        <p>если у вас остались какие-либо вопросы вы можете связаться с нами</p>
-        <p>наш номер телефона </p>
-        <p>+7(999)999-99-99</p>
-        <p>наша почта</p>
-        <p>nesyhestvuem@gmail.com</p>
+      <section id="contacts">
+        <h1 id ='h1' class="cont black">контакты</h1>
+        <p id ='cont_inf' class="cont black">если у вас остались какие-либо вопросы вы можете связаться с нами</p>
+        <p class="cont black">наш номер телефона </p>
+        <p class="white cont">+7(999)999-99-99</p>
+        <p class="cont black">наша почта</p>
+        <p class="white cont">nesyshestvuem@gmail.com</p>
       </section>
 
-      <section>
-        <h2>заинтересованы?</h2>
-        <h2>вы можете подать заявку на вступление в нашу школу</h2>
+      <section id="send">
+        <h2 class="black">заинтересованы?</h2>
+        <h2 class="black">вы можете подать заявку на вступление в нашу школу</h2>
         <form>
           <p>Заявка</p>
-          <div>
-              <label for="name">Имя:</label>
+          <div class="container">
+              <label for="name" class="white">Имя:</label>
               <input type="text" name="name" id="name" required>
           </div>
-          <div>
-            <label for="surname">Фамилия:</label>
+          <div class="container">
+            <label for="surname"  class="white">Фамилия:</label>
             <input type="text" name="surname" id="surname" required>
           </div>
-          <div>
-            <label for="email">Почта:</label>
+          <div class="container">
+            <label for="email"  class="white">Почта:</label>
             <input type="email" name="email" id="email" required>
           </div>
-          <div>
+          <div class="container">
+            <label for="number"  class="white">Номер:</label>
+            <input type="number" name="number" id="number" required>
+          </div>
+          <div class="container button">
             <input type="submit" value="отправить">
           </div>
         </form>
-        <img src="green.png">
-        <img src="logo.png">
+        <img src="assets/green.png" id="green">
+        <img src="assets/logo.png" id="logo_send">
       </section>
     </main>
   </body>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script src="script.js">
+  </script>
+
 </html>
