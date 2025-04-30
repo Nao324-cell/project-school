@@ -6,6 +6,46 @@ nav img{
     height: 4%;
 }
 
+#contacts #black_1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 200vh;
+    left: 90vw;
+}
+
+#contacts #black_2{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 230vh;
+    left: 15vw;
+}
+
+#contacts #black_3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 240vh;
+    left: 13vw;
+}
+
+#contacts #black_4{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 280vh;
+    left: 80vw;
+}
+
+#contacts #black_5{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 277vh;
+    left: 83vw;
+}
+
 #logo{
     width: 17%;
     height: 17%;
@@ -19,13 +59,19 @@ nav img{
 }
 
 #hands{
-    width: 15%;
-    height: 30%;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    top: 150vh;
+    left: 80vw;
 }
 
 #laptop{
     width: 13%;
-    height: 32%;
+    height: 27%;
+    position: absolute;
+    top: 165vh;
+    left: 8vw;
 }
 
 #green{
@@ -97,6 +143,7 @@ form p{
 
 #send h2{
     text-align: center;
+    font-size: 50px;
 }
 
 form .container {
@@ -110,6 +157,8 @@ form .container {
     height: 5vh;
     width: 20vw;
     border: 1px solid rgba(1, 157, 145, 1);
+    font-size: 33px;
+    text-align: center;
 }
 
 body{
@@ -181,9 +230,8 @@ body{
     margin-bottom: 5%;
 }
 
-.is-active{
+#about article .is-active{
     display: block;
-    width: 50vw;
 }
 
 #about article{
